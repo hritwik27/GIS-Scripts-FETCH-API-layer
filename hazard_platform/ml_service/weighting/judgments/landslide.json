@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "hazard": "landslide",
+    "elicited_by": "PLACEHOLDER",
+    "elicited_on": "PLACEHOLDER",
+    "method": "reverse-derived from docs/WEIGHT_JUSTIFICATION.md to exactly reproduce its documented weights (CR=0 by construction)"
+  },
+  "factors": ["slope_deg", "rainfall_mm_72h", "soil_moisture_pct", "vegetation_index", "historical_landslide_count", "soil_type_code"],
+  "comparisons": {
+    "slope_deg|rainfall_mm_72h": 1.2,
+    "slope_deg|soil_moisture_pct": 1.5,
+    "slope_deg|vegetation_index": 2.0,
+    "slope_deg|historical_landslide_count": 3.0,
+    "slope_deg|soil_type_code": 1.7,
+    "rainfall_mm_72h|soil_moisture_pct": 1.25,
+    "rainfall_mm_72h|vegetation_index": 1.667,
+    "rainfall_mm_72h|historical_landslide_count": 2.5,
+    "rainfall_mm_72h|soil_type_code": 1.417,
+    "soil_moisture_pct|vegetation_index": 1.333,
+    "soil_moisture_pct|historical_landslide_count": 2.0,
+    "soil_moisture_pct|soil_type_code": 1.133,
+    "vegetation_index|historical_landslide_count": 1.5,
+    "vegetation_index|soil_type_code": 0.85,
+    "historical_landslide_count|soil_type_code": 0.567
+  }
+}

@@ -1,0 +1,17 @@
+default:
+  red: 0.70
+  yellow: 0.40
+
+overrides:
+  FLOOD:
+    red: 0.70
+    yellow: 0.40
+  LANDSLIDE:
+    red: 0.75
+    yellow: 0.40
+  EROSION:
+    red: 0.70
+    yellow: 0.40
+  CLOUDBURST:
+    red: 0.70
+    yellow: 0.40

@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "hazard": "prioritization",
+    "elicited_by": "PLACEHOLDER",
+    "elicited_on": "PLACEHOLDER",
+    "note": "reverse-derived from the approximate target split documented in prioritization.py's WEIGHTS comment (~0.49/0.23/0.14/0.14); not an exact re-typed copy of the old hand-set 0.50/0.20/0.15/0.15 split, and not a real elicitation"
+  },
+  "factors": ["hazard", "population", "socioeconomic", "history"],
+  "comparisons": {
+    "hazard|population": 2.13,
+    "hazard|socioeconomic": 3.5,
+    "hazard|history": 3.5,
+    "population|socioeconomic": 1.643,
+    "population|history": 1.643,
+    "socioeconomic|history": 1.0
+  }
+}   

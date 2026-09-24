@@ -1,0 +1,8 @@
+{
+  "extraPaths": [
+    "./hazard_platform",
+    "./gis_fetcher"
+  ],
+  "venvPath": "C:\\Users\\Hp\\rescue-arc",
+  "venv": "gis_env"
+}

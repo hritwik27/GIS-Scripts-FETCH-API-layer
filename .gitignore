@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.env
+*.env
+env/
+ENV/
+gis_env/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# GIS & HTTP caches
+.gis_cache/
+
+# Databases & local credentials
+*.db
+root-isotope-*.json

@@ -1,0 +1,1705 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-BIHAR-PATNA-01",
+        "name": "Patna, Bihar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.1126,
+              25.5691
+            ],
+            [
+              85.1626,
+              25.5691
+            ],
+            [
+              85.1626,
+              25.6191
+            ],
+            [
+              85.1126,
+              25.6191
+            ],
+            [
+              85.1126,
+              25.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KERALA-WAYANAD-01",
+        "name": "Wayanad, Kerala"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.1069,
+              11.6604
+            ],
+            [
+              76.1569,
+              11.6604
+            ],
+            [
+              76.1569,
+              11.7104
+            ],
+            [
+              76.1069,
+              11.7104
+            ],
+            [
+              76.1069,
+              11.6604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ASSAM-GUWAHATI-01",
+        "name": "Guwahati, Assam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.7112,
+              26.1195
+            ],
+            [
+              91.7612,
+              26.1195
+            ],
+            [
+              91.7612,
+              26.1695
+            ],
+            [
+              91.7112,
+              26.1695
+            ],
+            [
+              91.7112,
+              26.1195
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ODISHA-PURI-01",
+        "name": "Puri, Odisha"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.8062,
+              19.7885
+            ],
+            [
+              85.8562,
+              19.7885
+            ],
+            [
+              85.8562,
+              19.8385
+            ],
+            [
+              85.8062,
+              19.8385
+            ],
+            [
+              85.8062,
+              19.7885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARAKHAND-JOSHIMATH-01",
+        "name": "Joshimath, Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.5391,
+              30.5301
+            ],
+            [
+              79.5891,
+              30.5301
+            ],
+            [
+              79.5891,
+              30.5801
+            ],
+            [
+              79.5391,
+              30.5801
+            ],
+            [
+              79.5391,
+              30.5301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-HIMACHAL-KULLU-01",
+        "name": "Kullu, Himachal Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0842,
+              31.9328
+            ],
+            [
+              77.1342,
+              31.9328
+            ],
+            [
+              77.1342,
+              31.9828
+            ],
+            [
+              77.0842,
+              31.9828
+            ],
+            [
+              77.0842,
+              31.9328
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-JAMMUKASHMIR-KISHTWAR-01",
+        "name": "Kishtwar, Jammu & Kashmir"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.745,
+              33.295
+            ],
+            [
+              75.795,
+              33.295
+            ],
+            [
+              75.795,
+              33.345
+            ],
+            [
+              75.745,
+              33.345
+            ],
+            [
+              75.745,
+              33.295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-SIKKIM-CHUNGTHANG-01",
+        "name": "Chungthang, Sikkim"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.6206,
+              27.5795
+            ],
+            [
+              88.6706,
+              27.5795
+            ],
+            [
+              88.6706,
+              27.6295
+            ],
+            [
+              88.6206,
+              27.6295
+            ],
+            [
+              88.6206,
+              27.5795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MAHARASHTRA-CHIPLUN-01",
+        "name": "Chiplun, Maharashtra"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.495,
+              17.505
+            ],
+            [
+              73.545,
+              17.505
+            ],
+            [
+              73.545,
+              17.555
+            ],
+            [
+              73.495,
+              17.555
+            ],
+            [
+              73.495,
+              17.505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-TAMILNADU-CUDDALORE-01",
+        "name": "Cuddalore, Tamil Nadu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.725,
+              11.725
+            ],
+            [
+              79.775,
+              11.725
+            ],
+            [
+              79.775,
+              11.775
+            ],
+            [
+              79.725,
+              11.775
+            ],
+            [
+              79.725,
+              11.725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-WESTBENGAL-GOSABA-01",
+        "name": "Gosaba, West Bengal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.7829,
+              22.1402
+            ],
+            [
+              88.8329,
+              22.1402
+            ],
+            [
+              88.8329,
+              22.1902
+            ],
+            [
+              88.7829,
+              22.1902
+            ],
+            [
+              88.7829,
+              22.1402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-GUJARAT-MANDVI-01",
+        "name": "Mandvi, Gujarat"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.3306,
+              22.8083
+            ],
+            [
+              69.3806,
+              22.8083
+            ],
+            [
+              69.3806,
+              22.8583
+            ],
+            [
+              69.3306,
+              22.8583
+            ],
+            [
+              69.3306,
+              22.8083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARPRADESH-GORAKHPUR-01",
+        "name": "Gorakhpur, Uttar Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.3789,
+              26.7388
+            ],
+            [
+              83.4289,
+              26.7388
+            ],
+            [
+              83.4289,
+              26.7888
+            ],
+            [
+              83.3789,
+              26.7888
+            ],
+            [
+              83.3789,
+              26.7388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARPRADESH-VARANASI-01",
+        "name": "Varanasi, Uttar Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.9878,
+              25.2939
+            ],
+            [
+              83.0378,
+              25.2939
+            ],
+            [
+              83.0378,
+              25.3439
+            ],
+            [
+              82.9878,
+              25.3439
+            ],
+            [
+              82.9878,
+              25.2939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-BIHAR-MUZAFFARPUR-01",
+        "name": "Muzaffarpur, Bihar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.3656,
+              26.0975
+            ],
+            [
+              85.4156,
+              26.0975
+            ],
+            [
+              85.4156,
+              26.1475
+            ],
+            [
+              85.3656,
+              26.1475
+            ],
+            [
+              85.3656,
+              26.0975
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-WESTBENGAL-COOCHBEHAR-01",
+        "name": "Cooch Behar, West Bengal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.426,
+              26.2992
+            ],
+            [
+              89.476,
+              26.2992
+            ],
+            [
+              89.476,
+              26.3492
+            ],
+            [
+              89.426,
+              26.3492
+            ],
+            [
+              89.426,
+              26.2992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ASSAM-DHEMAJI-01",
+        "name": "Dhemaji, Assam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.555,
+              27.455
+            ],
+            [
+              94.605,
+              27.455
+            ],
+            [
+              94.605,
+              27.505
+            ],
+            [
+              94.555,
+              27.505
+            ],
+            [
+              94.555,
+              27.455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ASSAM-BARPETA-01",
+        "name": "Barpeta, Assam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.975,
+              26.295
+            ],
+            [
+              91.025,
+              26.295
+            ],
+            [
+              91.025,
+              26.345
+            ],
+            [
+              90.975,
+              26.345
+            ],
+            [
+              90.975,
+              26.295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ODISHA-BALASORE-01",
+        "name": "Balasore, Odisha"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.9067,
+              21.4692
+            ],
+            [
+              86.9567,
+              21.4692
+            ],
+            [
+              86.9567,
+              21.5192
+            ],
+            [
+              86.9067,
+              21.5192
+            ],
+            [
+              86.9067,
+              21.4692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ANDHRAPRADESH-KURNOOL-01",
+        "name": "Kurnool, Andhra Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0123,
+              15.8031
+            ],
+            [
+              78.0623,
+              15.8031
+            ],
+            [
+              78.0623,
+              15.8531
+            ],
+            [
+              78.0123,
+              15.8531
+            ],
+            [
+              78.0123,
+              15.8031
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MADHYAPRADESH-NARMADAPURAM-01",
+        "name": "Narmadapuram (Hoshangabad), Madhya Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.705,
+              22.725
+            ],
+            [
+              77.755,
+              22.725
+            ],
+            [
+              77.755,
+              22.775
+            ],
+            [
+              77.705,
+              22.775
+            ],
+            [
+              77.705,
+              22.725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-HARYANA-YAMUNANAGAR-01",
+        "name": "Yamunanagar, Haryana"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2424,
+              30.104
+            ],
+            [
+              77.2924,
+              30.104
+            ],
+            [
+              77.2924,
+              30.154
+            ],
+            [
+              77.2424,
+              30.154
+            ],
+            [
+              77.2424,
+              30.104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KERALA-MUNNAR-01",
+        "name": "Munnar, Kerala"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0345,
+              10.0639
+            ],
+            [
+              77.0845,
+              10.0639
+            ],
+            [
+              77.0845,
+              10.1139
+            ],
+            [
+              77.0345,
+              10.1139
+            ],
+            [
+              77.0345,
+              10.0639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KARNATAKA-MADIKERI-01",
+        "name": "Madikeri (Coorg), Karnataka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.7132,
+              12.3994
+            ],
+            [
+              75.7632,
+              12.3994
+            ],
+            [
+              75.7632,
+              12.4494
+            ],
+            [
+              75.7132,
+              12.4494
+            ],
+            [
+              75.7132,
+              12.3994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-WESTBENGAL-DARJEELING-01",
+        "name": "Darjeeling, West Bengal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.2413,
+              27.016
+            ],
+            [
+              88.2913,
+              27.016
+            ],
+            [
+              88.2913,
+              27.066
+            ],
+            [
+              88.2413,
+              27.066
+            ],
+            [
+              88.2413,
+              27.016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARAKHAND-MUSSOORIE-01",
+        "name": "Mussoorie, Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.0414,
+              30.4348
+            ],
+            [
+              78.0914,
+              30.4348
+            ],
+            [
+              78.0914,
+              30.4848
+            ],
+            [
+              78.0414,
+              30.4848
+            ],
+            [
+              78.0414,
+              30.4348
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KERALA-IDUKKI-01",
+        "name": "Idukki, Kerala"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.945,
+              9.825
+            ],
+            [
+              76.995,
+              9.825
+            ],
+            [
+              76.995,
+              9.875
+            ],
+            [
+              76.945,
+              9.875
+            ],
+            [
+              76.945,
+              9.825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-TAMILNADU-OOTY-01",
+        "name": "Ooty (Nilgiris), Tamil Nadu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.6682,
+              11.3814
+            ],
+            [
+              76.7182,
+              11.3814
+            ],
+            [
+              76.7182,
+              11.4314
+            ],
+            [
+              76.6682,
+              11.4314
+            ],
+            [
+              76.6682,
+              11.3814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MIZORAM-AIZAWL-01",
+        "name": "Aizawl, Mizoram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.6926,
+              23.7021
+            ],
+            [
+              92.7426,
+              23.7021
+            ],
+            [
+              92.7426,
+              23.7521
+            ],
+            [
+              92.6926,
+              23.7521
+            ],
+            [
+              92.6926,
+              23.7021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MEGHALAYA-SHILLONG-01",
+        "name": "Shillong, Meghalaya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.8683,
+              25.5538
+            ],
+            [
+              91.9183,
+              25.5538
+            ],
+            [
+              91.9183,
+              25.6038
+            ],
+            [
+              91.8683,
+              25.6038
+            ],
+            [
+              91.8683,
+              25.5538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-LADAKH-LEH-01",
+        "name": "Leh, Ladakh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5521,
+              34.1276
+            ],
+            [
+              77.6021,
+              34.1276
+            ],
+            [
+              77.6021,
+              34.1776
+            ],
+            [
+              77.5521,
+              34.1776
+            ],
+            [
+              77.5521,
+              34.1276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-HIMACHAL-DHARAMSHALA-01",
+        "name": "Dharamshala, Himachal Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.2984,
+              32.194
+            ],
+            [
+              76.3484,
+              32.194
+            ],
+            [
+              76.3484,
+              32.244
+            ],
+            [
+              76.2984,
+              32.244
+            ],
+            [
+              76.2984,
+              32.194
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARAKHAND-UTTARKASHI-01",
+        "name": "Uttarkashi, Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.4104,
+              30.7018
+            ],
+            [
+              78.4604,
+              30.7018
+            ],
+            [
+              78.4604,
+              30.7518
+            ],
+            [
+              78.4104,
+              30.7518
+            ],
+            [
+              78.4104,
+              30.7018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARAKHAND-CHAMOLI-01",
+        "name": "Chamoli, Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.295,
+              30.375
+            ],
+            [
+              79.345,
+              30.375
+            ],
+            [
+              79.345,
+              30.425
+            ],
+            [
+              79.295,
+              30.425
+            ],
+            [
+              79.295,
+              30.375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-UTTARAKHAND-RUDRAPRAYAG-01",
+        "name": "Rudraprayag, Uttarakhand"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.956,
+              30.2594
+            ],
+            [
+              79.006,
+              30.2594
+            ],
+            [
+              79.006,
+              30.3094
+            ],
+            [
+              78.956,
+              30.3094
+            ],
+            [
+              78.956,
+              30.2594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ARUNACHALPRADESH-ITANAGAR-01",
+        "name": "Itanagar, Arunachal Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.5803,
+              27.0594
+            ],
+            [
+              93.6303,
+              27.0594
+            ],
+            [
+              93.6303,
+              27.1094
+            ],
+            [
+              93.5803,
+              27.1094
+            ],
+            [
+              93.5803,
+              27.0594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-HIMACHAL-SOLAN-01",
+        "name": "Solan, Himachal Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.0717,
+              30.8795
+            ],
+            [
+              77.1217,
+              30.8795
+            ],
+            [
+              77.1217,
+              30.9295
+            ],
+            [
+              77.0717,
+              30.9295
+            ],
+            [
+              77.0717,
+              30.8795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-WESTBENGAL-DIGHA-01",
+        "name": "Digha, West Bengal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.4839,
+              21.6019
+            ],
+            [
+              87.5339,
+              21.6019
+            ],
+            [
+              87.5339,
+              21.6519
+            ],
+            [
+              87.4839,
+              21.6519
+            ],
+            [
+              87.4839,
+              21.6019
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ODISHA-PARADIP-01",
+        "name": "Paradip, Odisha"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.5917,
+              20.2917
+            ],
+            [
+              86.6417,
+              20.2917
+            ],
+            [
+              86.6417,
+              20.3417
+            ],
+            [
+              86.5917,
+              20.3417
+            ],
+            [
+              86.5917,
+              20.2917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ANDHRAPRADESH-VISAKHAPATNAM-01",
+        "name": "Visakhapatnam, Andhra Pradesh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.1935,
+              17.6618
+            ],
+            [
+              83.2435,
+              17.6618
+            ],
+            [
+              83.2435,
+              17.7118
+            ],
+            [
+              83.1935,
+              17.7118
+            ],
+            [
+              83.1935,
+              17.6618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KARNATAKA-KARWAR-01",
+        "name": "Karwar, Karnataka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.1041,
+              14.7887
+            ],
+            [
+              74.1541,
+              14.7887
+            ],
+            [
+              74.1541,
+              14.8387
+            ],
+            [
+              74.1041,
+              14.8387
+            ],
+            [
+              74.1041,
+              14.7887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MAHARASHTRA-RATNAGIRI-01",
+        "name": "Ratnagiri, Maharashtra"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.287,
+              16.9652
+            ],
+            [
+              73.337,
+              16.9652
+            ],
+            [
+              73.337,
+              17.0152
+            ],
+            [
+              73.287,
+              17.0152
+            ],
+            [
+              73.287,
+              16.9652
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-KERALA-ALAPPUZHA-01",
+        "name": "Alappuzha, Kerala"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.3138,
+              9.4731
+            ],
+            [
+              76.3638,
+              9.4731
+            ],
+            [
+              76.3638,
+              9.5231
+            ],
+            [
+              76.3138,
+              9.5231
+            ],
+            [
+              76.3138,
+              9.4731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-TAMILNADU-NAGAPATTINAM-01",
+        "name": "Nagapattinam, Tamil Nadu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.8199,
+              10.7422
+            ],
+            [
+              79.8699,
+              10.7422
+            ],
+            [
+              79.8699,
+              10.7922
+            ],
+            [
+              79.8199,
+              10.7922
+            ],
+            [
+              79.8199,
+              10.7422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ANDAMANNICOBAR-PORTBLAIR-01",
+        "name": "Port Blair, Andaman & Nicobar Islands"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.7015,
+              11.5984
+            ],
+            [
+              92.7515,
+              11.5984
+            ],
+            [
+              92.7515,
+              11.6484
+            ],
+            [
+              92.7015,
+              11.6484
+            ],
+            [
+              92.7015,
+              11.5984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-DAMANDIU-DIU-01",
+        "name": "Diu, Daman & Diu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.9624,
+              20.6894
+            ],
+            [
+              71.0124,
+              20.6894
+            ],
+            [
+              71.0124,
+              20.7394
+            ],
+            [
+              70.9624,
+              20.7394
+            ],
+            [
+              70.9624,
+              20.6894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-GUJARAT-VERAVAL-01",
+        "name": "Veraval, Gujarat"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.3379,
+              20.8909
+            ],
+            [
+              70.3879,
+              20.8909
+            ],
+            [
+              70.3879,
+              20.9409
+            ],
+            [
+              70.3379,
+              20.9409
+            ],
+            [
+              70.3379,
+              20.8909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-ASSAM-JORHAT-01",
+        "name": "Jorhat, Assam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.1787,
+              26.7259
+            ],
+            [
+              94.2287,
+              26.7259
+            ],
+            [
+              94.2287,
+              26.7759
+            ],
+            [
+              94.1787,
+              26.7759
+            ],
+            [
+              94.1787,
+              26.7259
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-MANIPUR-IMPHAL-01",
+        "name": "Imphal, Manipur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              93.9118,
+              24.792
+            ],
+            [
+              93.9618,
+              24.792
+            ],
+            [
+              93.9618,
+              24.842
+            ],
+            [
+              93.9118,
+              24.842
+            ],
+            [
+              93.9118,
+              24.792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Z-CHHATTISGARH-RAIGARH-01",
+        "name": "Raigarh, Chhattisgarh"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.37,
+              21.8724
+            ],
+            [
+              83.42,
+              21.8724
+            ],
+            [
+              83.42,
+              21.9224
+            ],
+            [
+              83.37,
+              21.9224
+            ],
+            [
+              83.37,
+              21.8724
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

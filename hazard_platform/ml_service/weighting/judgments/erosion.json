@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "hazard": "erosion",
+    "elicited_by": "PLACEHOLDER",
+    "elicited_on": "PLACEHOLDER",
+    "method": "reverse-derived from docs/WEIGHT_JUSTIFICATION.md to exactly reproduce its documented weights (CR=0 by construction)"
+  },
+  "factors": ["shoreline_change_rate_m_per_yr", "wave_energy_index", "distance_to_coast_m", "historical_erosion_events", "sediment_type_code"],
+  "comparisons": {
+    "shoreline_change_rate_m_per_yr|wave_energy_index": 1.4,
+    "shoreline_change_rate_m_per_yr|distance_to_coast_m": 1.75,
+    "shoreline_change_rate_m_per_yr|historical_erosion_events": 1.75,
+    "shoreline_change_rate_m_per_yr|sediment_type_code": 1.983,
+    "wave_energy_index|distance_to_coast_m": 1.25,
+    "wave_energy_index|historical_erosion_events": 1.25,
+    "wave_energy_index|sediment_type_code": 1.417,
+    "distance_to_coast_m|historical_erosion_events": 1.0,
+    "distance_to_coast_m|sediment_type_code": 1.133,
+    "historical_erosion_events|sediment_type_code": 1.133
+  }
+}

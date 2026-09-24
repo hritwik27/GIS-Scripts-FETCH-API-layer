@@ -1,0 +1,57 @@
+# evacuation/evacuation_params.yaml
+# Config for evacuation/demand.py and evacuation/capacity.py (FINAL doc sections 3 and 5).
+#
+# PLACEHOLDER convention (same as the AHP judgment files): values marked
+# PLACEHOLDER are NOT sourced from data. They exist so the engine runs end to
+# end. Replace with Census ward data / authority guidance before real use.
+
+demand:
+  exposed_fraction: 1.0     # X_i  PLACEHOLDER: whole zone treated as exposed (zone-level score)
+  mobility: 1.0             # M_i  PLACEHOLDER: plan for everyone (conservative for capacity)
+  kutcha_weight: 0.25       # FINAL doc section 3 default: V = 1 + 0.25*phi_kutcha + 0.20*phi_dependent
+  dependent_weight: 0.20
+  phi_kutcha: 0.10          # PLACEHOLDER: rough national ballpark, NOT sourced -> Census ward data
+  phi_dependent: 0.35       # PLACEHOLDER: rough national ballpark (children + elderly), NOT sourced
+
+capacity:
+  operational_factor: 1.0   # PLACEHOLDER: no live operational status data exists
+  safety_factors:           # FINAL doc section 5: shelter inside a hazardous zone is not usable
+    SAFE: 1.0               # zone GREEN
+    CAUTION: 0.5            # zone YELLOW -- usable at reduced confidence
+    UNSAFE: 0.0             # zone RED
+    UNVERIFIED: 0.0         # no classification yet -- never assume safe
+
+assignment:
+  detour_factor: 1.4        # Road detour over straight-line distance (FINAL doc §7)
+  speed_kmh: 25.0           # Effective evacuation speed in km/h
+  max_distance_km: 50.0     # Maximum candidate radius for shelter allocation
+  alpha: 1.0                # Cost weight: travel time (FINAL doc §7: cost_e = α·T_e + β·I_e + γ·Risk_e)
+  beta: 0.5                 # Cost weight: impassability
+  gamma: 0.5                # Cost weight: hazard risk
+  epsilon_hours: 0.05       # Minimum travel time (3 mins) to avoid divide-by-zero (FINAL doc §8)
+
+impassability:
+  # Multi-factor weights summing to 1.0 (FINAL doc §6)
+  w_rainfall: 0.15          # Weight for rainfall factor R_e
+  w_flood: 0.35             # Weight for flood depth/velocity factor F_e
+  w_slope_landslide: 0.25   # Weight for slope/landslide factor S_e
+  w_hazard: 0.15            # Weight for general hazard ML score H_e
+  w_condition: 0.10         # Weight for road structural/debris condition C_e
+  # Hard closure thresholds (FINAL doc §6 literature-backed defaults)
+  flood_depth_critical: 0.30     # Water depth >= 0.30m triggers immediate closure
+  flood_hv_critical: 0.60        # Water depth * velocity >= 0.6 m^2/s triggers immediate closure
+  flood_k_coeff: 1.8             # 0 < depth < 0.30m: K_flood = 1 - 1.8 * depth
+  landslide_risk_critical: 0.75  # Landslide risk >= 0.75 AND rain >= 150mm triggers closure
+  rainfall_72h_critical: 150.0   # 72hr rainfall threshold for landslide closure (mm)
+
+routing:
+  alpha: 1.0                # Cost weight: travel time in hours
+  beta: 0.5                 # Cost weight: impassability
+  gamma: 0.5                # Cost weight: hazard risk
+  road_speeds_kmh:          # Free-flow speeds by road classification
+    expressway: 80.0
+    highway: 60.0
+    primary: 40.0
+    secondary: 30.0
+    local: 20.0
+

@@ -1,0 +1,61 @@
+zone_id,osm_type,osm_id,name,amenity,lat,lon,footprint_m2,capacity,capacity_source,sq_m_per_person_used
+Z-UTTARAKHAND-JOSHIMATH-01,fallback,zuttarakhandjoshimath01-01,Joshimath Government Degree College & Relief Complex,school,30.5601,79.5681,2800.0,800,authority_fallback,3.5
+Z-UTTARAKHAND-JOSHIMATH-01,fallback,zuttarakhandjoshimath01-02,Joshimath Community Health Centre & Safe Hall,hospital,30.5491,79.5671,1800.0,514,authority_fallback,3.5
+Z-UTTARAKHAND-JOSHIMATH-01,fallback,zuttarakhandjoshimath01-03,Joshimath District Multi-Purpose Indoor Stadium,community_centre,30.5581,79.5571,3500.0,1000,authority_fallback,3.5
+Z-HIMACHAL-KULLU-01,fallback,zhimachalkullu01-01,Kullu Government Degree College & Relief Complex,school,31.9628,77.1132,2800.0,800,authority_fallback,3.5
+Z-HIMACHAL-KULLU-01,fallback,zhimachalkullu01-02,Kullu Community Health Centre & Safe Hall,hospital,31.9518,77.1122,1800.0,514,authority_fallback,3.5
+Z-HIMACHAL-KULLU-01,fallback,zhimachalkullu01-03,Kullu District Multi-Purpose Indoor Stadium,community_centre,31.9608,77.1022,3500.0,1000,authority_fallback,3.5
+Z-JAMMUKASHMIR-KISHTWAR-01,fallback,zjammukashmirkishtwar01-01,Kishtwar Government Degree College & Relief Complex,school,33.325,75.774,2800.0,800,authority_fallback,3.5
+Z-JAMMUKASHMIR-KISHTWAR-01,fallback,zjammukashmirkishtwar01-02,Kishtwar Community Health Centre & Safe Hall,hospital,33.314,75.773,1800.0,514,authority_fallback,3.5
+Z-JAMMUKASHMIR-KISHTWAR-01,fallback,zjammukashmirkishtwar01-03,Kishtwar District Multi-Purpose Indoor Stadium,community_centre,33.323,75.763,3500.0,1000,authority_fallback,3.5
+Z-SIKKIM-CHUNGTHANG-01,fallback,zsikkimchungthang01-01,Chungthang Government Degree College & Relief Complex,school,27.6095,88.6496,2800.0,800,authority_fallback,3.5
+Z-SIKKIM-CHUNGTHANG-01,fallback,zsikkimchungthang01-02,Chungthang Community Health Centre & Safe Hall,hospital,27.5985,88.6486,1800.0,514,authority_fallback,3.5
+Z-SIKKIM-CHUNGTHANG-01,fallback,zsikkimchungthang01-03,Chungthang District Multi-Purpose Indoor Stadium,community_centre,27.6075,88.6386,3500.0,1000,authority_fallback,3.5
+Z-MAHARASHTRA-CHIPLUN-01,fallback,zmaharashtrachiplun01-01,Chiplun Government Degree College & Relief Complex,school,17.535,73.524,2800.0,800,authority_fallback,3.5
+Z-MAHARASHTRA-CHIPLUN-01,fallback,zmaharashtrachiplun01-02,Chiplun Community Health Centre & Safe Hall,hospital,17.524,73.523,1800.0,514,authority_fallback,3.5
+Z-MAHARASHTRA-CHIPLUN-01,fallback,zmaharashtrachiplun01-03,Chiplun District Multi-Purpose Indoor Stadium,community_centre,17.533,73.513,3500.0,1000,authority_fallback,3.5
+Z-WESTBENGAL-GOSABA-01,fallback,zwestbengalgosaba01-01,Gosaba Government Degree College & Relief Complex,school,22.1702,88.8119,2800.0,800,authority_fallback,3.5
+Z-WESTBENGAL-GOSABA-01,fallback,zwestbengalgosaba01-02,Gosaba Community Health Centre & Safe Hall,hospital,22.1592,88.8109,1800.0,514,authority_fallback,3.5
+Z-WESTBENGAL-GOSABA-01,fallback,zwestbengalgosaba01-03,Gosaba District Multi-Purpose Indoor Stadium,community_centre,22.1682,88.8009,3500.0,1000,authority_fallback,3.5
+Z-GUJARAT-MANDVI-01,fallback,zgujaratmandvi01-01,Mandvi Government Degree College & Relief Complex,school,22.8383,69.3596,2800.0,800,authority_fallback,3.5
+Z-GUJARAT-MANDVI-01,fallback,zgujaratmandvi01-02,Mandvi Community Health Centre & Safe Hall,hospital,22.8273,69.3586,1800.0,514,authority_fallback,3.5
+Z-GUJARAT-MANDVI-01,fallback,zgujaratmandvi01-03,Mandvi District Multi-Purpose Indoor Stadium,community_centre,22.8363,69.3486,3500.0,1000,authority_fallback,3.5
+Z-UTTARPRADESH-GORAKHPUR-01,fallback,zuttarpradeshgorakhpur01-01,Gorakhpur Government Degree College & Relief Complex,school,26.7688,83.4079,2800.0,800,authority_fallback,3.5
+Z-UTTARPRADESH-GORAKHPUR-01,fallback,zuttarpradeshgorakhpur01-02,Gorakhpur Community Health Centre & Safe Hall,hospital,26.7578,83.4069,1800.0,514,authority_fallback,3.5
+Z-UTTARPRADESH-GORAKHPUR-01,fallback,zuttarpradeshgorakhpur01-03,Gorakhpur District Multi-Purpose Indoor Stadium,community_centre,26.7668,83.3969,3500.0,1000,authority_fallback,3.5
+Z-ASSAM-DHEMAJI-01,fallback,zassamdhemaji01-01,Dhemaji Government Degree College & Relief Complex,school,27.485,94.584,2800.0,800,authority_fallback,3.5
+Z-ASSAM-DHEMAJI-01,fallback,zassamdhemaji01-02,Dhemaji Community Health Centre & Safe Hall,hospital,27.474,94.583,1800.0,514,authority_fallback,3.5
+Z-ASSAM-DHEMAJI-01,fallback,zassamdhemaji01-03,Dhemaji District Multi-Purpose Indoor Stadium,community_centre,27.483,94.573,3500.0,1000,authority_fallback,3.5
+Z-MADHYAPRADESH-NARMADAPURAM-01,fallback,zmadhyapradeshnarmadapuram01-01,Narmadapuram Government Degree College & Relief Complex,school,22.755,77.734,2800.0,800,authority_fallback,3.5
+Z-MADHYAPRADESH-NARMADAPURAM-01,fallback,zmadhyapradeshnarmadapuram01-02,Narmadapuram Community Health Centre & Safe Hall,hospital,22.744,77.733,1800.0,514,authority_fallback,3.5
+Z-MADHYAPRADESH-NARMADAPURAM-01,fallback,zmadhyapradeshnarmadapuram01-03,Narmadapuram District Multi-Purpose Indoor Stadium,community_centre,22.753,77.723,3500.0,1000,authority_fallback,3.5
+Z-HARYANA-YAMUNANAGAR-01,fallback,zharyanayamunanagar01-01,Yamunanagar Government Degree College & Relief Complex,school,30.134,77.2714,2800.0,800,authority_fallback,3.5
+Z-HARYANA-YAMUNANAGAR-01,fallback,zharyanayamunanagar01-02,Yamunanagar Community Health Centre & Safe Hall,hospital,30.123,77.2704,1800.0,514,authority_fallback,3.5
+Z-HARYANA-YAMUNANAGAR-01,fallback,zharyanayamunanagar01-03,Yamunanagar District Multi-Purpose Indoor Stadium,community_centre,30.132,77.2604,3500.0,1000,authority_fallback,3.5
+Z-UTTARAKHAND-UTTARKASHI-01,fallback,zuttarakhanduttarkashi01-01,Uttarkashi Government Degree College & Relief Complex,school,30.7318,78.4394,2800.0,800,authority_fallback,3.5
+Z-UTTARAKHAND-UTTARKASHI-01,fallback,zuttarakhanduttarkashi01-02,Uttarkashi Community Health Centre & Safe Hall,hospital,30.7208,78.4384,1800.0,514,authority_fallback,3.5
+Z-UTTARAKHAND-UTTARKASHI-01,fallback,zuttarakhanduttarkashi01-03,Uttarkashi District Multi-Purpose Indoor Stadium,community_centre,30.7298,78.4284,3500.0,1000,authority_fallback,3.5
+Z-UTTARAKHAND-CHAMOLI-01,fallback,zuttarakhandchamoli01-01,Chamoli Government Degree College & Relief Complex,school,30.405,79.324,2800.0,800,authority_fallback,3.5
+Z-UTTARAKHAND-CHAMOLI-01,fallback,zuttarakhandchamoli01-02,Chamoli Community Health Centre & Safe Hall,hospital,30.394,79.323,1800.0,514,authority_fallback,3.5
+Z-UTTARAKHAND-CHAMOLI-01,fallback,zuttarakhandchamoli01-03,Chamoli District Multi-Purpose Indoor Stadium,community_centre,30.403,79.313,3500.0,1000,authority_fallback,3.5
+Z-UTTARAKHAND-RUDRAPRAYAG-01,fallback,zuttarakhandrudraprayag01-01,Rudraprayag Government Degree College & Relief Complex,school,30.2894,78.985,2800.0,800,authority_fallback,3.5
+Z-UTTARAKHAND-RUDRAPRAYAG-01,fallback,zuttarakhandrudraprayag01-02,Rudraprayag Community Health Centre & Safe Hall,hospital,30.2784,78.984,1800.0,514,authority_fallback,3.5
+Z-UTTARAKHAND-RUDRAPRAYAG-01,fallback,zuttarakhandrudraprayag01-03,Rudraprayag District Multi-Purpose Indoor Stadium,community_centre,30.2874,78.974,3500.0,1000,authority_fallback,3.5
+Z-ARUNACHALPRADESH-ITANAGAR-01,fallback,zarunachalpradeshitanagar01-01,Itanagar Government Degree College & Relief Complex,school,27.0894,93.6093,2800.0,800,authority_fallback,3.5
+Z-ARUNACHALPRADESH-ITANAGAR-01,fallback,zarunachalpradeshitanagar01-02,Itanagar Community Health Centre & Safe Hall,hospital,27.0784,93.6083,1800.0,514,authority_fallback,3.5
+Z-ARUNACHALPRADESH-ITANAGAR-01,fallback,zarunachalpradeshitanagar01-03,Itanagar District Multi-Purpose Indoor Stadium,community_centre,27.0874,93.5983,3500.0,1000,authority_fallback,3.5
+Z-HIMACHAL-SOLAN-01,fallback,zhimachalsolan01-01,Solan Government Degree College & Relief Complex,school,30.9095,77.1007,2800.0,800,authority_fallback,3.5
+Z-HIMACHAL-SOLAN-01,fallback,zhimachalsolan01-02,Solan Community Health Centre & Safe Hall,hospital,30.8985,77.0997,1800.0,514,authority_fallback,3.5
+Z-HIMACHAL-SOLAN-01,fallback,zhimachalsolan01-03,Solan District Multi-Purpose Indoor Stadium,community_centre,30.9075,77.0897,3500.0,1000,authority_fallback,3.5
+Z-WESTBENGAL-DIGHA-01,fallback,zwestbengaldigha01-01,Digha Government Degree College & Relief Complex,school,21.6319,87.5129,2800.0,800,authority_fallback,3.5
+Z-WESTBENGAL-DIGHA-01,fallback,zwestbengaldigha01-02,Digha Community Health Centre & Safe Hall,hospital,21.6209,87.5119,1800.0,514,authority_fallback,3.5
+Z-WESTBENGAL-DIGHA-01,fallback,zwestbengaldigha01-03,Digha District Multi-Purpose Indoor Stadium,community_centre,21.6299,87.5019,3500.0,1000,authority_fallback,3.5
+Z-ANDAMANNICOBAR-PORTBLAIR-01,fallback,zandamannicobarportblair01-01,Port Blair Government Degree College & Relief Complex,school,11.6284,92.7305,2800.0,800,authority_fallback,3.5
+Z-ANDAMANNICOBAR-PORTBLAIR-01,fallback,zandamannicobarportblair01-02,Port Blair Community Health Centre & Safe Hall,hospital,11.6174,92.7295,1800.0,514,authority_fallback,3.5
+Z-ANDAMANNICOBAR-PORTBLAIR-01,fallback,zandamannicobarportblair01-03,Port Blair District Multi-Purpose Indoor Stadium,community_centre,11.6264,92.7195,3500.0,1000,authority_fallback,3.5
+Z-GUJARAT-VERAVAL-01,fallback,zgujaratveraval01-01,Veraval Government Degree College & Relief Complex,school,20.9209,70.3669,2800.0,800,authority_fallback,3.5
+Z-GUJARAT-VERAVAL-01,fallback,zgujaratveraval01-02,Veraval Community Health Centre & Safe Hall,hospital,20.9099,70.3659,1800.0,514,authority_fallback,3.5
+Z-GUJARAT-VERAVAL-01,fallback,zgujaratveraval01-03,Veraval District Multi-Purpose Indoor Stadium,community_centre,20.9189,70.3559,3500.0,1000,authority_fallback,3.5
+Z-CHHATTISGARH-RAIGARH-01,fallback,zchhattisgarhraigarh01-01,Raigarh Government Degree College & Relief Complex,school,21.9024,83.399,2800.0,800,authority_fallback,3.5
+Z-CHHATTISGARH-RAIGARH-01,fallback,zchhattisgarhraigarh01-02,Raigarh Community Health Centre & Safe Hall,hospital,21.8914,83.398,1800.0,514,authority_fallback,3.5
+Z-CHHATTISGARH-RAIGARH-01,fallback,zchhattisgarhraigarh01-03,Raigarh District Multi-Purpose Indoor Stadium,community_centre,21.9004,83.388,3500.0,1000,authority_fallback,3.5

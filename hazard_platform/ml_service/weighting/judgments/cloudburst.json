@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "hazard": "cloudburst",
+    "elicited_by": "PLACEHOLDER",
+    "elicited_on": "PLACEHOLDER",
+    "method": "reverse-derived from docs/WEIGHT_JUSTIFICATION.md to exactly reproduce its documented weights (CR=0 by construction)"
+  },
+  "factors": ["rainfall_intensity_mm_per_hr", "humidity_pct", "elevation_m", "wind_speed_kmph", "historical_cloudburst_count"],
+  "comparisons": {
+    "rainfall_intensity_mm_per_hr|humidity_pct": 3.0,
+    "rainfall_intensity_mm_per_hr|elevation_m": 3.0,
+    "rainfall_intensity_mm_per_hr|wind_speed_kmph": 4.5,
+    "rainfall_intensity_mm_per_hr|historical_cloudburst_count": 3.0,
+    "humidity_pct|elevation_m": 1.0,
+    "humidity_pct|wind_speed_kmph": 1.5,
+    "humidity_pct|historical_cloudburst_count": 1.0,
+    "elevation_m|wind_speed_kmph": 1.5,
+    "elevation_m|historical_cloudburst_count": 1.0,
+    "wind_speed_kmph|historical_cloudburst_count": 0.667
+  }
+}

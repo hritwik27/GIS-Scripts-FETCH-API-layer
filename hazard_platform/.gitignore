@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+.gis_cache/
+root-isotope-*.json
+*.db
