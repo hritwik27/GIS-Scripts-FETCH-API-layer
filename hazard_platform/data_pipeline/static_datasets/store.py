@@ -49,15 +49,29 @@ class StaticField:
     ingested_at: datetime
 
 
+DEFAULT_DB_FILE = Path(__file__).resolve().parent.parent.parent / "static_zone_data.db"
+
+
 class StaticDatasetStore:
-    def __init__(self, db_path: str = "static_zone_data.db") -> None:
-        self.db_path = db_path
-        parent = Path(db_path).parent
+    def __init__(self, db_path: Optional[str] = None) -> None:
+        if db_path is None:
+            if DEFAULT_DB_FILE.exists():
+                self.db_path = str(DEFAULT_DB_FILE)
+            elif Path("static_zone_data.db").exists():
+                self.db_path = "static_zone_data.db"
+            else:
+                self.db_path = str(DEFAULT_DB_FILE)
+        else:
+            self.db_path = db_path
+
+
+        parent = Path(self.db_path).parent
         if str(parent) not in ("", "."):
             parent.mkdir(parents=True, exist_ok=True)
         with closing(sqlite3.connect(self.db_path)) as conn:
             conn.executescript(_SCHEMA)
             conn.commit()
+
 
     def upsert(self, zone_id: str, field_name: str, value: Optional[float], source: str) -> None:
         """Insert or overwrite one zone/field's static value. Re-running

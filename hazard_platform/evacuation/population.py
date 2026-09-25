@@ -2,11 +2,11 @@
 `population` field (evacuation demand base input P_i, see FINAL doc §13).
 
 Population is ingested once (see data_pipeline/static_datasets/load_population.py)
-via WorldPop's 2017 1km UN-adjusted raster, keyed to the 12 seeded zone_ids in
+via WorldPop's 2017 1km UN-adjusted raster, keyed to the 50 seeded zone_ids in
 zones.py. This module does no computation and no live lookup -- it's a
 read-only accessor other evacuation modules call to get P_i.
 
-A zone_id outside the 12 seeded zones (e.g. a dynamically map-clicked point,
+A zone_id outside the 50 seeded zones (e.g. a dynamically map-clicked point,
 see zone_from_point() in zones.py) will have no row in StaticDatasetStore.
 get_population() returns None in that case -- callers MUST handle None,
 not assume every zone has population data. This is a deliberate limitation
@@ -34,7 +34,7 @@ class PopulationRecord:
 
 def get_population(zone_id: str, store: StaticDatasetStore | None = None) -> PopulationRecord | None:
     """Look up population for a zone_id. Returns None if this zone was
-    never ingested (dynamically-clicked point outside the 12 seeded
+    never ingested (dynamically-clicked point outside the 50 seeded
     zones, or population ingestion just hasn't been run yet) -- callers
     building evacuation demand must treat that as "no data", not crash
     or silently default to 0.
