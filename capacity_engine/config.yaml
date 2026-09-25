@@ -1,0 +1,28 @@
+# Capacity Engine Configuration Parameters
+# Conforms to SIH Problem Statement 26191 and Sphere Humanitarian Standards.
+
+demand:
+  exposed_fraction: 1.0       # Fraction of zone population within the hazard perimeter
+  mobility: 1.0               # Evacuation willingness and vehicle participation factor
+  kutcha_weight: 0.25         # Weight for vulnerable kutcha (makeshift) housing
+  dependent_weight: 0.20      # Weight for dependent populations (elderly, infants, disabled)
+  phi_kutcha: 0.10            # Default regional kutcha housing ratio
+  phi_dependent: 0.35         # Default regional dependent population ratio
+
+capacity:
+  operational_factor: 1.0     # Usable infrastructure efficiency (staffing, power, sanitation)
+  sq_m_per_person: 3.5        # Sphere standard: 3.5 m2 covered indoor floor area per person
+  safety_factors:
+    SAFE: 1.0                 # Normal full capacity (GREEN zones)
+    CAUTION: 0.5              # 50% capacity derating due to hazard proximity (YELLOW zones)
+    UNSAFE: 0.0               # 0% capacity - shelter compromised or within RED zone
+    UNVERIFIED: 0.0           # 0% capacity - unclassified status
+
+assignment:
+  detour_factor: 1.4          # Real-world winding road multiplier over great-circle distance
+  speed_kmh: 25.0             # Average emergency convoy / bus transit speed in km/h
+  max_distance_km: 50.0       # Maximum viable relocation distance from zone centroid
+  alpha: 1.0                  # Cost optimization weight: transit time
+  beta: 0.5                   # Cost optimization weight: road impassability
+  gamma: 0.5                  # Cost optimization weight: hazard score
+  epsilon_hours: 0.05         # 3 minutes minimum time threshold to prevent division by zero

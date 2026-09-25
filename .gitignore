@@ -36,3 +36,6 @@ Thumbs.db
 # Databases & local credentials
 *.db
 root-isotope-*.json
+
+# Archives
+*.zip
