@@ -15,6 +15,7 @@ sys.path.insert(0, str(HP_ROOT))
 from zones import list_zones, get_zone
 from evacuation.population import get_population
 from evacuation.shelters import get_shelters, get_shelters_with_capacity
+from evacuation.vulnerability import get_vulnerability
 
 
 def test_all_zones():
@@ -24,6 +25,7 @@ def test_all_zones():
     errors = []
     no_population = []
     no_shelters = []
+    no_vulnerability = []
     ok_count = 0
 
     for zone in zones:
@@ -44,6 +46,14 @@ def test_all_zones():
             if not all_shelters:
                 no_shelters.append(zid)
 
+            # 4. vulnerability resolves (Census 2011 phi_kutcha and phi_dependent)
+            vuln = get_vulnerability(zid)
+            if vuln is None:
+                no_vulnerability.append(zid)
+            else:
+                assert 0.0 <= vuln.phi_kutcha <= 1.0, f"Invalid phi_kutcha for {zid}: {vuln.phi_kutcha}"
+                assert 0.0 <= vuln.phi_dependent <= 1.0, f"Invalid phi_dependent for {zid}: {vuln.phi_dependent}"
+
             ok_count += 1
         except Exception as exc:
             errors.append((zid, repr(exc)))
@@ -62,6 +72,17 @@ def test_all_zones():
     else:
         print("Shelters: all 50 zones have valid shelters (including fallback shelters)")
 
+    if no_vulnerability:
+        print(f"WARNING: {len(no_vulnerability)} zone(s) missing vulnerability records: {sorted(no_vulnerability)}")
+        raise AssertionError("Missing vulnerability records")
+    else:
+        print("Vulnerability: all 50 zones have verified Census 2011 vulnerability records")
+
+    # Verify unseeded/dynamic zone behavior
+    unseeded_vuln = get_vulnerability("Z-DYNAMIC-UNSEEDED-POINT")
+    assert unseeded_vuln is None, "Unseeded zone must return None for vulnerability"
+    print("Unseeded zone handling: correctly returns None (placeholder flag preserved)")
+
     if errors:
         print(f"\nFAILED: {len(errors)} zone(s) raised an exception:")
         for zid, err in errors:
@@ -69,6 +90,7 @@ def test_all_zones():
         raise SystemExit(1)
 
     print("\nPASS: All 50 zones verified successfully.")
+
 
 
 if __name__ == "__main__":

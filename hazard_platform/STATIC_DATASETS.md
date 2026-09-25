@@ -23,6 +23,9 @@ remain manual or gated behind signup.
 | `river_level_m` | FLOOD | **Automatic, live — after one-time signup** | `fetch_river_level.py` — Google Flood Forecasting API (needs `GOOGLE_FLOOD_API_KEY`; see "Getting river_level_m live" below) |
 | `shoreline_change_rate_m_per_yr` | EROSION | **Manual, one-time download** | ISRO/NCCR National Shoreline Change Assessment |
 | `mangrove_cover_pct` | EROSION | **Manual, one-time download** | Global Mangrove Watch |
+| `phi_kutcha` | EVACUATION | **One-time census dataset** | Census 2011 Table HH-14 (kutcha/semi-pucca housing ratio) |
+| `phi_dependent` | EVACUATION | **One-time census dataset** | Census 2011 Table C-13 (dependent population <15 & 60+ ratio) |
+
 
 Nothing in this repo pretends the bottom two are live — see "Why these
 two can't be automated further" below (now including this update's
@@ -309,6 +312,12 @@ counts no longer belong on it:
    `globalmangrovewatch.org` viewer. Free, no login. Re-download
    yearly if you want mangrove cover to track real-world change
    (restoration, clearing) rather than one fixed year.
+3. **Census 2011 Housing & Age Profile (`vulnerability.csv`)** —
+   `phi_kutcha` from House Listing & Housing Census Table HH-14 (roof/wall materials)
+   and `phi_dependent` from Population by Age Group Table C-13 (ratio under 15 & over 60).
+   Pre-compiled for all 50 zones in `vulnerability.csv` and ingested via:
+   `python -m data_pipeline.static_datasets.load_vulnerability vulnerability.csv`
+
 
 That's it. For a demo scoped to a handful of named zones (see
 `zones.py`), this is realistically an hour or two of downloading, not

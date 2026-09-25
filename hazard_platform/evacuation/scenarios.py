@@ -26,6 +26,7 @@ from evacuation.demand import compute_demand
 from evacuation.models import AssignmentStatus, EdgeCondition
 from evacuation.road_network import build_corridor_network
 from evacuation.shelters import get_shelters
+from evacuation.vulnerability import get_vulnerability
 from zones import get_zone
 
 
@@ -182,6 +183,9 @@ def run_zone_scenario(
     timeline: list[TimestepProjection] = []
     plans_by_step: dict[str, dict[str, Any]] = {}
     local_shelters = get_shelters(zone_id)
+    vuln_rec = get_vulnerability(zone_id)
+    phi_k = vuln_rec.phi_kutcha if vuln_rec else None
+    phi_d = vuln_rec.phi_dependent if vuln_rec else None
 
     for step_id, offset in steps:
         proj_time = now + timedelta(hours=offset)
@@ -196,7 +200,9 @@ def run_zone_scenario(
             color = ZoneColor.GREEN
 
         # 1. Demand at this timestep
-        demand_res = compute_demand(zone_id, population, color, h_score)
+        demand_res = compute_demand(
+            zone_id, population, color, h_score, phi_kutcha=phi_k, phi_dependent=phi_d
+        )
         demand_val = demand_res.demand or 0
 
         # 2. Shelters & Safety check at this timestep

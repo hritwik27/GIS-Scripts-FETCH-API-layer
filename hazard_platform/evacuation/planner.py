@@ -34,6 +34,7 @@ from data_pipeline.hazard_reading_store import HazardReadingStore
 from data_pipeline.models import HazardType
 from evacuation import population as population_mod
 from evacuation import shelters as shelters_mod
+from evacuation import vulnerability as vulnerability_mod
 from evacuation.assignment import (
     AssignmentParams,
     assign_zone,
@@ -152,8 +153,20 @@ def plan_zone(
     population_record = population_mod.get_population(zone_id)
     population = population_record.population if population_record is not None else None
 
+    vuln_record = vulnerability_mod.get_vulnerability(zone_id)
+    phi_k = vuln_record.phi_kutcha if vuln_record is not None else None
+    phi_d = vuln_record.phi_dependent if vuln_record is not None else None
+
     dparams = demand_params or load_demand_params()
-    demand_result = compute_demand(zone_id, population, color, worst_score, params=dparams)
+    demand_result = compute_demand(
+        zone_id,
+        population,
+        color,
+        worst_score,
+        params=dparams,
+        phi_kutcha=phi_k,
+        phi_dependent=phi_d,
+    )
 
     shelters = shelters_mod.get_shelters(zone_id)
     cparams = capacity_params or load_capacity_params()

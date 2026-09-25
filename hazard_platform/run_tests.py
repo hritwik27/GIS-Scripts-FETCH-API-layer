@@ -22,6 +22,7 @@ from tests import test_assignment
 from tests import test_routing
 from tests import test_scenarios
 from tests import test_full_system
+from tests import test_vulnerability_wiring
 
 
 def run_ahp_tests():
@@ -33,6 +34,7 @@ def run_ahp_tests():
 
 TEST_SUITES = [
     ("Zone Registry & Population (50 Zones)", test_zones.test_all_zones),
+    ("Census Vulnerability Inputs & Wiring", test_vulnerability_wiring.test_vulnerability_wiring),
     ("Zone Classifier & Hazard Thresholds", test_zone_classifier.test_zone_classifier),
     ("Multi-Criteria AHP Prioritization", test_prioritization.test_prioritization),
     ("Evacuation Capacity & Demand Engine", test_capacity_demand.test_capacity_demand),
@@ -42,6 +44,7 @@ TEST_SUITES = [
     ("End-to-End System & API Verification", test_full_system.test_full_system),
     ("AHP Consistency & Weights (Saaty CR < 0.10)", run_ahp_tests),
 ]
+
 
 
 def main():
